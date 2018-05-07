@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "ShareStuff",
+  "version": "1.0",
+
+  "description": "Adds a icon to the browser toolbar to select a friend to share a link with",
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/beastify",
+  "icons": {
+    "48": "icons/circle-logo.svg"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/circle-logo.svg",
+    "default_title": "ShareStuff",
+    "default_popup": "popup/select.html"
+  },
+}
